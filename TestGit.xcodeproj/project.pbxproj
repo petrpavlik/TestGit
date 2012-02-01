@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5CF57314D9589C007FCA75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CF57214D9589C007FCA75 /* UIKit.framework */; };
+		EF5CF57514D9589C007FCA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CF57414D9589C007FCA75 /* Foundation.framework */; };
+		EF5CF57714D9589C007FCA75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CF57614D9589C007FCA75 /* CoreGraphics.framework */; };
+		EF5CF57D14D9589C007FCA75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5CF57B14D9589C007FCA75 /* InfoPlist.strings */; };
+		EF5CF57F14D9589C007FCA75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5CF57E14D9589C007FCA75 /* main.m */; };
+		EF5CF58314D9589C007FCA75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5CF58214D9589C007FCA75 /* AppDelegate.m */; };
+		EF5CF58614D9589C007FCA75 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5CF58514D9589C007FCA75 /* RootViewController.m */; };
+		EF5CF58914D9589C007FCA75 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5CF58814D9589C007FCA75 /* DataViewController.m */; };
+		EF5CF58C14D9589D007FCA75 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5CF58B14D9589D007FCA75 /* ModelController.m */; };
+		EF5CF58F14D9589D007FCA75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5CF58D14D9589D007FCA75 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF5CF56E14D9589C007FCA75 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5CF57214D9589C007FCA75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF5CF57414D9589C007FCA75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF5CF57614D9589C007FCA75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF5CF57A14D9589C007FCA75 /* TestGit-Info.plist */ = {isa = PBXFileReference; path = "TestGit-Info.plist"; sourceTree = "<group>"; };
+		EF5CF57C14D9589C007FCA75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5CF57E14D9589C007FCA75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5CF58014D9589C007FCA75 /* TestGit-Prefix.pch */ = {isa = PBXFileReference; path = "TestGit-Prefix.pch"; sourceTree = "<group>"; };
+		EF5CF58114D9589C007FCA75 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5CF58214D9589C007FCA75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5CF58414D9589C007FCA75 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EF5CF58514D9589C007FCA75 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EF5CF58714D9589C007FCA75 /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		EF5CF58814D9589C007FCA75 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		EF5CF58A14D9589C007FCA75 /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		EF5CF58B14D9589D007FCA75 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		EF5CF58E14D9589D007FCA75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5CF56B14D9589C007FCA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5CF57314D9589C007FCA75 /* UIKit.framework in Frameworks */,
+				EF5CF57514D9589C007FCA75 /* Foundation.framework in Frameworks */,
+				EF5CF57714D9589C007FCA75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5CF56314D9589C007FCA75 = {
+			isa = PBXGroup;
+			children = (
+				EF5CF57814D9589C007FCA75 /* TestGit */,
+				EF5CF57114D9589C007FCA75 /* Frameworks */,
+				EF5CF56F14D9589C007FCA75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5CF56F14D9589C007FCA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CF56E14D9589C007FCA75 /* TestGit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5CF57114D9589C007FCA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CF57214D9589C007FCA75 /* UIKit.framework */,
+				EF5CF57414D9589C007FCA75 /* Foundation.framework */,
+				EF5CF57614D9589C007FCA75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5CF57814D9589C007FCA75 /* TestGit */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CF58114D9589C007FCA75 /* AppDelegate.h */,
+				EF5CF58214D9589C007FCA75 /* AppDelegate.m */,
+				EF5CF58414D9589C007FCA75 /* RootViewController.h */,
+				EF5CF58514D9589C007FCA75 /* RootViewController.m */,
+				EF5CF58714D9589C007FCA75 /* DataViewController.h */,
+				EF5CF58814D9589C007FCA75 /* DataViewController.m */,
+				EF5CF58A14D9589C007FCA75 /* ModelController.h */,
+				EF5CF58B14D9589D007FCA75 /* ModelController.m */,
+				EF5CF58D14D9589D007FCA75 /* MainStoryboard.storyboard */,
+				EF5CF57914D9589C007FCA75 /* Supporting Files */,
+			);
+			path = TestGit;
+			sourceTree = "<group>";
+		};
+		EF5CF57914D9589C007FCA75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CF57A14D9589C007FCA75 /* TestGit-Info.plist */,
+				EF5CF57B14D9589C007FCA75 /* InfoPlist.strings */,
+				EF5CF57E14D9589C007FCA75 /* main.m */,
+				EF5CF58014D9589C007FCA75 /* TestGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5CF56D14D9589C007FCA75 /* TestGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5CF59214D9589D007FCA75 /* Build configuration list for PBXNativeTarget "TestGit" */;
+			buildPhases = (
+				EF5CF56A14D9589C007FCA75 /* Sources */,
+				EF5CF56B14D9589C007FCA75 /* Frameworks */,
+				EF5CF56C14D9589C007FCA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGit;
+			productName = TestGit;
+			productReference = EF5CF56E14D9589C007FCA75 /* TestGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5CF56514D9589C007FCA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = uLikeIT;
+			};
+			buildConfigurationList = EF5CF56814D9589C007FCA75 /* Build configuration list for PBXProject "TestGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF5CF56314D9589C007FCA75;
+			productRefGroup = EF5CF56F14D9589C007FCA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5CF56D14D9589C007FCA75 /* TestGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5CF56C14D9589C007FCA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5CF57D14D9589C007FCA75 /* InfoPlist.strings in Resources */,
+				EF5CF58F14D9589D007FCA75 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5CF56A14D9589C007FCA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5CF57F14D9589C007FCA75 /* main.m in Sources */,
+				EF5CF58314D9589C007FCA75 /* AppDelegate.m in Sources */,
+				EF5CF58614D9589C007FCA75 /* RootViewController.m in Sources */,
+				EF5CF58914D9589C007FCA75 /* DataViewController.m in Sources */,
+				EF5CF58C14D9589D007FCA75 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF5CF57B14D9589C007FCA75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5CF57C14D9589C007FCA75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF5CF58D14D9589D007FCA75 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5CF58E14D9589D007FCA75 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5CF59014D9589D007FCA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5CF59114D9589D007FCA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5CF59314D9589D007FCA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGit/TestGit-Prefix.pch";
+				INFOPLIST_FILE = "TestGit/TestGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF5CF59414D9589D007FCA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGit/TestGit-Prefix.pch";
+				INFOPLIST_FILE = "TestGit/TestGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5CF56814D9589C007FCA75 /* Build configuration list for PBXProject "TestGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5CF59014D9589D007FCA75 /* Debug */,
+				EF5CF59114D9589D007FCA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5CF59214D9589D007FCA75 /* Build configuration list for PBXNativeTarget "TestGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5CF59314D9589D007FCA75 /* Debug */,
+				EF5CF59414D9589D007FCA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5CF56514D9589C007FCA75 /* Project object */;
+}
